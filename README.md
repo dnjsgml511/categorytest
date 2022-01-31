@@ -6,7 +6,10 @@
 > Ubuntu GUI 기준 설치, 빌드 방법
 > 1. 자바 설치 : sudo apt-get install openjdk-8-jdk
 > 2. H2DB 설치 : https://www.h2database.com/html/main.html 접속하여 H2DB 설치
-> 
+> 3. 에서 war파일 다운로드 후 리눅스로 이동
+> 4. war파일 실행 : java -jar Category.war
+> 5. 실행하면 자동적으로 테이블 생성
+> 6. 유닛테스트 진행 시 기본 데이터로 셋팅 후 진행
 
 <br />
 
@@ -16,6 +19,7 @@
   - Springboot + JPA로 개발하였습니다.
   - 데이터베이스는 H2DB을 사용하였습니다.
   - Encoding은 UTF-8 기준에서 개발하였습니다. 
+  - 테스트는 Junit을 사용하였습니다.
 
   
 <br />
