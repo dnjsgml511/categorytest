@@ -195,6 +195,8 @@
 
 #
 
+<br />
+
 ## 삭제
 #### 삭제API
 |TYPE|URL|PARAM(필수)|PARAM(선택)|
@@ -202,3 +204,26 @@
 |GET|localhost:8080/delete|ID||
 
 <br />
+
+  - ****테스트명**** : deleteSuccess
+  - ****삭제 성공했을 경우****
+  ```markdown
+  # localhost:8080/delete?id=3
+  ```
+|PARAM|VALUE|
+|-----|-----|
+|ID|3|
+
+#
+
+
+  - ****테스트명**** : deleteFail
+  - ****삭제 실패했을 경우****
+  ```markdown
+  # localhost:8080/delete?id=100
+  ```
+|PARAM|VALUE|
+|-----|-----|
+|ID|100|
+
+#
