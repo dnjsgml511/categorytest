@@ -41,7 +41,7 @@
 
 ### DB정의서
 |Column|Type|설명|
-|------|---|---|
+|------|---|------|
 |ID|INTEGER|PK, AI|
 |CATEGORY|VARCHAR(255)||
 |PARENT_ID|INTEGER|FK|
