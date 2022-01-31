@@ -195,4 +195,10 @@
 
 #
 
-#
+## 삭제
+#### 삭제API
+|TYPE|URL|PARAM(필수)|PARAM(선택)|
+|------|---|------|------|
+|GET|localhost:8080/delete|ID||
+
+<br />
