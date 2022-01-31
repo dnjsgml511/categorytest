@@ -35,9 +35,9 @@
 ## Database
 
 ### DB접속정보
-*URL* : jdbc:h2:tcp://localhost/~/test
-*ID* : sa
-*Password* : (공란)
+- *URL* : jdbc:h2:tcp://localhost/~/test
+- *ID* : sa
+- *Password* : (공란)
 
 **Requirements:**
 - Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
