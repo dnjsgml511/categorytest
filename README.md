@@ -68,7 +68,6 @@
 #### UnitTest
   - ****테스트명**** : insertSuccess
   - ****INSERT 성공시****
-  - 
   ```markdown
   # localhost:8080/insert?CATEGORY=insert test&PARENTID=1&ROWNUMS=1
   ```
