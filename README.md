@@ -70,7 +70,7 @@
 <br />
 
 #### UnitTest
-  - **DISPLAYNAME** : Insert Success TEST
+  - ****테스트명**** : insertSuccess
 
 |PARAM|VALUE|
 |-----|-----|
