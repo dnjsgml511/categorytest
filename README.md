@@ -39,14 +39,14 @@
 
 ## Database
 
-**DB접속정보**
+#DB접속정보
 - *URL* : jdbc:h2:tcp://localhost/~/test
 - *ID* : sa
 - *Password* : (공란)
 
 <br />
 
-**DB정의서**
+##**DB정의서**
 |Column|Type|설명|
 |------|---|------|
 |ID|INTEGER|PK, AI|
