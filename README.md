@@ -168,14 +168,31 @@
 #
 
   - ****테스트명**** : updateRownum
-  - ****행만 수정 할 경우****
+  - ****같은 부모 아래에서 행 수정 할 경우****
   ```markdown
-  # localhost:8080/update?id=3&category=update category test&rownums=2
+  # localhost:8080/update?id=3&category=update rownum test&rownums=2
   ```
 |PARAM|VALUE|
 |-----|-----|
 |ID|3|
-|category|"update category test"|
+|category|"update rownum test"|
 |rownums|2|
+
+#
+
+
+  - ****테스트명**** : updateParentid
+  - ****부모 수정 할 경우****
+  ```markdown
+  # localhost:8080/update?id=5&category=update parent test&rownums=2&parentid=3
+  ```
+|PARAM|VALUE|
+|-----|-----|
+|ID|5|
+|category|"update parent test"|
+|rownums|2|
+|parentid|3|
+
+#
 
 #
