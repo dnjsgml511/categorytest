@@ -116,6 +116,17 @@
 
 <br />
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+#### UpdateUnitTest
 
+  - ****테스트명**** : search
+  - ****상위 카테고리 지정 안했을 경우****
+  ```markdown
+  # localhost:8080/search
+  ```
+|PARAM|VALUE|
+|-----|-----|
+|CATEGORY|NULL|
+|PARENTID|NULL|
+|ROWNUMS|NULL|
 
+#
