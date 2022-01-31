@@ -15,9 +15,15 @@
 - [등록](#Insert)
   - [Call](#InsertCall)
   - [Unit Test](#InsertTest)
+- [검색](#Search)
+  - [Call](#SearchCall)
+  - [Unit Test](#SearchTest)
 - [수정](#Update)
   - [Call](#UpdateCall)
   - [Unit Test](#UpdateTest)
+- [삭제](#Delete)
+  - [Call](#DeleteCall)
+  - [Unit Test](#DeleteTest)
 
 
 ## Sections
