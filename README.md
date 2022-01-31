@@ -49,6 +49,7 @@
 |ROWNUMS|INTEGER||
 
 ### ERD
+<img width="296" alt="ERD" src="https://user-images.githubusercontent.com/44846071/151783855-789c6c62-1eaa-496c-ae2d-5e576564c19c.PNG">
 
 **Requirements:**
 - Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
