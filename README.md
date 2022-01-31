@@ -14,7 +14,7 @@
   
 <br />
   
-## API 목차
+## 목차
 
 - [Database](#Database)
   - [DB접속정보](#DB접속정보)
