@@ -10,26 +10,12 @@
   - STS로 개발하였습니다.
   - Encoding은 UTF-8 기준에서 개발하였습니다. 
 
-## 목차
+## API 목차
 
-- [Sections](#sections)
-  - [Title](#title)
-  - [Banner](#banner)
-  - [Badges](#badges)
-  - [Short Description](#short-description)
-  - [Long Description](#long-description)
-  - [Table of Contents](#table-of-contents-1)
-  - [Security](#security)
-  - [Background](#background)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Extra Sections](#extra-sections)
-  - [API](#api)
-  - [Maintainers](#maintainers)
-  - [Thanks](#thanks)
-  - [Contributing](#contributing)
-  - [License](#license)
-- [Definitions](#definitions)
+- [등록](#Insert)
+  - [API URL](#API URL)
+  - [API Unit Test](#API Unit Test)
+
 
 ## Sections
 
