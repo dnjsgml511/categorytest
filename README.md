@@ -9,11 +9,8 @@
   - 데이터베이스는 H2DB을 사용하였습니다.
   - STS로 개발하였습니다.
   - Encoding은 UTF-8 기준에서 개발하였습니다. 
-  - 
 
-## Table of Contents
-
-_Note: This is only a navigation guide for the specification, and does not define or mandate terms for any specification-compliant documents._
+## 목차
 
 - [Sections](#sections)
   - [Title](#title)
