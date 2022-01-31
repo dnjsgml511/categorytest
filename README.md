@@ -44,8 +44,6 @@
 - *ID* : sa
 - *Password* : (공란)
 
-<br />
-
 #### DB정의서
 |Column|Type|설명|
 |------|---|------|
@@ -53,8 +51,6 @@
 |CATEGORY|VARCHAR(255)||
 |PARENT_ID|INTEGER|FK|
 |ROWNUMS|INTEGER||
-
-<br />
 
 #### ERD
 <img width="296" alt="ERD" src="https://user-images.githubusercontent.com/44846071/151783855-789c6c62-1eaa-496c-ae2d-5e576564c19c.PNG">
@@ -71,6 +67,7 @@
 
 #### UnitTest
   - ****테스트명**** : insertSuccess
+  - ****INSERT 성공시****
 
 |PARAM|VALUE|
 |-----|-----|
