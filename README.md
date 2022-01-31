@@ -22,7 +22,7 @@
   - [DB정의서](#DB정의서)
 - [등록](#등록)
   - [등록API](#등록API)
-  - [Unit Test](#InsertTest)
+  - [Unit Test](#UnitTest)
 - [검색](#Search)
   - [Call](#SearchCall)
   - [Unit Test](#SearchTest)
@@ -67,6 +67,11 @@
 |------|---|------|------|
 |GET|localhost:8080/insert|CATEGORY, PARENTID|ROWNUMS|
 
+<br />
+
+#### UnitTest
+|PARAM|CATEGORY|PARENTID|ROWNUMS|
+|VALUE|"insert test"|1|1|
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 **Requirements:**
