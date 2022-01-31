@@ -71,19 +71,19 @@
   ```markdown
   # localhost:8080/insert?CATEGORY=insert test&PARENTID=1&ROWNUMS=1
   ```
-  
 |PARAM|VALUE|
 |-----|-----|
-|##CATEGORY|##"insert test"|
-|##PARENTID|##1|
-|##ROWNUMS|##1|
+|CATEGORY|"insert test"|
+|PARENTID|1|
+|ROWNUMS|1|
+
+
 
   - ****테스트명**** : categorynameInsertFail
   - ****카테고리명 PARAM 없을경우****
-
-
-
-
+  ```markdown
+  # localhost:8080/insert?PARENTID=1&ROWNUMS=1
+  ```
 |PARAM|VALUE|
 |-----|-----|
 |CATEGORY|NULL|
@@ -92,7 +92,9 @@
 
   - ****테스트명**** : parentInsertFail
   - ****부모ID PARAM 없을경우****
-
+  ```markdown
+  # localhost:8080/insert?CATEGORY=insert test&ROWNUMS=1
+  ```
 |PARAM|VALUE|
 |-----|-----|
 |CATEGORY|"insert test"|
