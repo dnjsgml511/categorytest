@@ -20,7 +20,7 @@
   - [DB접속정보](#DB접속정보)
   - [ERD](#ERD)
   - [DB정의서](#DB정의서)
-- [등록](#Insert)
+- [등록](#등록)
   - [Call](#InsertCall)
   - [Unit Test](#InsertTest)
 - [검색](#Search)
@@ -59,9 +59,9 @@
 ### ERD
 <img width="296" alt="ERD" src="https://user-images.githubusercontent.com/44846071/151783855-789c6c62-1eaa-496c-ae2d-5e576564c19c.PNG">
 
-<br />
+<br /><br />
 
-
+## 등록
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
