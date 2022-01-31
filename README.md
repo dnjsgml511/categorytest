@@ -22,9 +22,9 @@
   - [DB정의서](#DB정의서)
 - [등록](#등록)
   - [등록API](#등록API)
-  - [Unit Test](#UnitTest)
-- [검색](#Search)
-  - [Call](#SearchCall)
+  - [Unit Test](#InsertUnitTest)
+- [검색](#검색)
+  - [Call](#등록API)
   - [Unit Test](#SearchTest)
 - [수정](#Update)
   - [Call](#UpdateCall)
@@ -65,7 +65,7 @@
 
 <br />
 
-#### UnitTest
+#### InsertUnitTest
 
   - ****테스트명**** : insertSuccess
   - ****INSERT 성공시****
@@ -105,6 +105,14 @@
 |ROWNUMS|NULL|
 
 #
+
+<br />
+
+## 검색
+#### 검색API
+|TYPE|URL|PARAM(필수)|PARAM(선택)|
+|------|---|------|------|
+|GET|localhost:8080/search||CATEGORY, PARENTID, ROWNUMS|
 
 <br />
 
