@@ -29,10 +29,10 @@
   - [Unit Test](#DeleteTest)
 
 
-### Database
+### **Database**
 
-## DB접속정보
-**URL** : jdbc:h2:tcp://localhost/~/test
+### DB접속정보
+*URL* : jdbc:h2:tcp://localhost/~/test
 
 **Requirements:**
 - Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
