@@ -13,6 +13,7 @@
 ## API 목차
 
 - [Database](#Database)
+  - [DB접속정보](#DB접속정보)
   - [DB정의서](#DB정의서)
 - [등록](#Insert)
   - [Call](#InsertCall)
@@ -30,7 +31,8 @@
 
 ### Database
 
-## DB정의서
+## DB접속정보
+**URL** : jdbc:h2:tcp://localhost/~/test
 
 **Requirements:**
 - Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
