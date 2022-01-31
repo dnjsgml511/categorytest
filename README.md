@@ -74,9 +74,9 @@
   
 |PARAM|VALUE|
 |-----|-----|
-|##CATEGORY##|##"insert test"##|
-|##PARENTID##|##1##|
-|##ROWNUMS##|##1##|
+|##CATEGORY|##"insert test"|
+|##PARENTID|##1|
+|##ROWNUMS|##1|
 
   - ****테스트명**** : categorynameInsertFail
   - ****카테고리명 PARAM 없을경우****
