@@ -112,7 +112,7 @@
 #### 검색API
 |TYPE|URL|PARAM(필수)|PARAM(선택)|
 |------|---|------|------|
-|GET|localhost:8080/search||CATEGORY, PARENTID, ROWNUMS|
+|GET|localhost:8080/search||ID|
 
 <br />
 
@@ -125,8 +125,20 @@
   ```
 |PARAM|VALUE|
 |-----|-----|
-|CATEGORY|NULL|
-|PARENTID|NULL|
-|ROWNUMS|NULL|
+|ID|NULL|
+
+#
+
+
+#### UpdateUnitTest
+
+  - ****테스트명**** : searchID
+  - ****상위 카테고리 지정 했을 경우****
+  ```markdown
+  # localhost:8080/search?id=2
+  ```
+|PARAM|VALUE|
+|-----|-----|
+|ID|2|
 
 #
