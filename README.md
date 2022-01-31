@@ -13,8 +13,8 @@
 ## API 목차
 
 - [등록](#Insert)
-  - [API URL](#API URL)
-  - [API Unit Test](#API Unit Test)
+  - [Call](#Call)
+  - [Test](#Test)
 
 
 ## Sections
