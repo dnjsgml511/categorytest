@@ -40,11 +40,12 @@
 - *Password* : (공란)
 
 ### DB정의서
-|제목|내용|설명|
+|Column|Type|설명|
 |------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|ID|INTEGER|PK, AI|
+|CATEGORY|VARCHAR(255)||
+|PARENT_ID|INTEGER|FK|
+|ROWNUMS|INTEGER||
 
 **Requirements:**
 - Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
