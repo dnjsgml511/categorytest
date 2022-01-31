@@ -142,3 +142,11 @@
 |ID|2|
 
 #
+
+## 수정
+#### 수정API
+|TYPE|URL|PARAM(필수)|PARAM(선택)|
+|------|---|------|------|
+|GET|localhost:8080/update|ID|CATEGORY, PARENTID, ROWNUMS|
+
+<br />
