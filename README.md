@@ -14,6 +14,7 @@
 
 - [Database](#Database)
   - [DB접속정보](#DB접속정보)
+  - [ERD](#ERD)
   - [DB정의서](#DB정의서)
 - [등록](#Insert)
   - [Call](#InsertCall)
@@ -46,6 +47,8 @@
 |CATEGORY|VARCHAR(255)||
 |PARENT_ID|INTEGER|FK|
 |ROWNUMS|INTEGER||
+
+### ERD
 
 **Requirements:**
 - Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
