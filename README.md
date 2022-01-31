@@ -12,6 +12,7 @@
 
 ## API 목차
 
+- [Database](#Database)
 - [등록](#Insert)
   - [Call](#InsertCall)
   - [Unit Test](#InsertTest)
@@ -26,8 +27,7 @@
   - [Unit Test](#DeleteTest)
 
 
-### Insert
-**Status:** Required.
+### Database
 
 **Requirements:**
 - Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
