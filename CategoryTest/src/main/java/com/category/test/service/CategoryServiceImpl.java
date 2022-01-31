@@ -95,6 +95,7 @@ public class CategoryServiceImpl implements CategoryService {
 	@Override
 	@Transactional
 	public Category insert(Category vo) throws Exception {
+
 		// 부모id가 없을경우 throw exception
 		if (vo.getParentid() == null) {
 			throw new IllegalArgumentException("There's no parentid");
@@ -119,8 +120,10 @@ public class CategoryServiceImpl implements CategoryService {
 			rowdata = repository.findByParentid(vo.getParentid(), Sort.by(Sort.Direction.ASC, "rownums")).get();
 		}
 
+		// rownum이 없을경우
+		int rownum = vo.getRownums() == null ? rowdata.size() : vo.getRownums() - 1;
 		// 형제노드에 추가하기
-		rowdata.add(vo.getRownums() - 1, vo);
+		rowdata.add(rownum, vo);
 		rowdata = utils.setRownum(rowdata);
 
 		// 저장
