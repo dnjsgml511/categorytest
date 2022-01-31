@@ -13,6 +13,7 @@
 ## API 목차
 
 - [Database](#Database)
+  - [DB정의서](#DB정의서)
 - [등록](#Insert)
   - [Call](#InsertCall)
   - [Unit Test](#InsertTest)
@@ -28,6 +29,8 @@
 
 
 ### Database
+
+## DB정의서
 
 **Requirements:**
 - Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
