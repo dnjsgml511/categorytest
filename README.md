@@ -24,14 +24,14 @@
   - [등록API](#등록API)
   - [Unit Test](#InsertUnitTest)
 - [검색](#검색)
-  - [Call](#등록API)
-  - [Unit Test](#SearchTest)
+  - [검색API](#검색API)
+  - [Unit Test](#SearchUnitTest)
 - [수정](#Update)
-  - [Call](#UpdateCall)
-  - [Unit Test](#UpdateTest)
+  - [수정API](#수정API)
+  - [Unit Test](#UpdateUnitTest)
 - [삭제](#Delete)
-  - [Call](#DeleteCall)
-  - [Unit Test](#DeleteTest)
+  - [삭제API](#삭제API)
+  - [Unit Test](#DeleteUnitTest)
 
 
 <br />
