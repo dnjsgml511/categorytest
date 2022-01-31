@@ -143,6 +143,8 @@
 
 #
 
+<br />
+
 ## 수정
 #### 수정API
 |TYPE|URL|PARAM(필수)|PARAM(선택)|
@@ -150,3 +152,15 @@
 |GET|localhost:8080/update|ID|CATEGORY, PARENTID, ROWNUMS|
 
 <br />
+
+#### UpdateUnitTest
+
+  - ****테스트명**** : updateOnlyCategory
+  - ****카테고리만 수정 할 경우****
+  ```markdown
+  # localhost:8080/update?id=2&category=update category test
+  ```
+|PARAM|VALUE|
+|-----|-----|
+|ID|2|
+|category|"update category test"|
