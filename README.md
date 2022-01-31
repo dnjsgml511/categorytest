@@ -13,8 +13,11 @@
 ## API 목차
 
 - [등록](#Insert)
-  - [Call](#Call)
-  - [Test](#Test)
+  - [Call](#InsertCall)
+  - [Unit Test](#InsertTest)
+- [수정](#Update)
+  - [Call](#UpdateCall)
+  - [Unit Test](#UpdateTest)
 
 
 ## Sections
