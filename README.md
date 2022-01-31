@@ -21,7 +21,7 @@
   - [ERD](#ERD)
   - [DB정의서](#DB정의서)
 - [등록](#등록)
-  - [Call](#InsertCall)
+  - [등록API](#등록API)
   - [Unit Test](#InsertTest)
 - [검색](#Search)
   - [Call](#SearchCall)
@@ -62,6 +62,10 @@
 <br /><br />
 
 ## 등록
+### 등록API
+|TYPE|URL|PARAM(필수)|PARAM(선택)|
+|------|---|------|------|
+|GET|localhost:8080/insert|CATEGORY, PARENTID|ROWNUMS|
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
