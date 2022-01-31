@@ -164,3 +164,18 @@
 |-----|-----|
 |ID|2|
 |category|"update category test"|
+
+#
+
+  - ****테스트명**** : updateRownum
+  - ****행만 수정 할 경우****
+  ```markdown
+  # localhost:8080/update?id=3&category=update category test&rownums=2
+  ```
+|PARAM|VALUE|
+|-----|-----|
+|ID|3|
+|category|"update category test"|
+|rownums|2|
+
+#
