@@ -2,7 +2,7 @@
 
 카테고리 API입니다
 
-> Note: Standard Readme is designed for open source libraries. Although it's [historically](README.md#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
+> Note: 과제 제출용입니다.
 
 **Requirements:**
   - Be called README.md (with capitalization).
