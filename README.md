@@ -77,7 +77,7 @@
 |PARENTID|1|
 |ROWNUMS|1|
 
-
+#
 
   - ****테스트명**** : categorynameInsertFail
   - ****카테고리명 PARAM 없을경우****
@@ -90,6 +90,8 @@
 |PARENTID|1|
 |ROWNUMS|1|
 
+#
+
   - ****테스트명**** : parentInsertFail
   - ****부모ID PARAM 없을경우****
   ```markdown
@@ -100,6 +102,8 @@
 |CATEGORY|"insert test"|
 |PARENTID|1|
 |ROWNUMS|NULL|
+
+#
 
 <br />
 
