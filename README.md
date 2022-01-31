@@ -116,7 +116,7 @@
 
 <br />
 
-#### UpdateUnitTest
+#### SearchAllUnitTest
 
   - ****테스트명**** : search
   - ****상위 카테고리 지정 안했을 경우****
@@ -130,7 +130,7 @@
 #
 
 
-#### UpdateUnitTest
+#### SearchUnitTest
 
   - ****테스트명**** : searchID
   - ****상위 카테고리 지정 했을 경우****
