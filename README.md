@@ -39,14 +39,14 @@
 
 ## Database
 
-#DB접속정보
+###DB접속정보
 - *URL* : jdbc:h2:tcp://localhost/~/test
 - *ID* : sa
 - *Password* : (공란)
 
 <br />
 
-##**DB정의서**
+###DB정의서
 |Column|Type|설명|
 |------|---|------|
 |ID|INTEGER|PK, AI|
@@ -56,13 +56,13 @@
 
 <br />
 
-**ERD**<br />
+###ERD
 <img width="296" alt="ERD" src="https://user-images.githubusercontent.com/44846071/151783855-789c6c62-1eaa-496c-ae2d-5e576564c19c.PNG">
 
 <br /><br />
 
 ## 등록
-**등록API**
+###등록API
 |TYPE|URL|PARAM(필수)|PARAM(선택)|
 |------|---|------|------|
 |GET|localhost:8080/insert|CATEGORY, PARENTID|ROWNUMS|
