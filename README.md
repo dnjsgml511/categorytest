@@ -2,7 +2,7 @@
 
 카테고리 API입니다
 
-> # Note: 과제 제출용입니다.
+> ### Note: 과제 제출용입니다.
 > Ubuntu GUI 기준 설치, 빌드 방법  
 > 1. 자바 설치 : sudo apt-get install openjdk-8-jdk  
 > 2. H2DB 설치 : https://www.h2database.com/html/main.html 접속하여 H2DB 설치  
